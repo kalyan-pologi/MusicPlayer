@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>MusicPlayer</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+    <!-- get from font awesome website -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body id="div111">
+	<header>
+		<nav class="music_header_bar">
+             	<div class="music_logo">
+             		<!-- music_logo -->
+             		<i class="fab fa-napster"></i>
+             	</div>
+                <div class="music_title">
+                	<h1>Kalyan</h1>
+                	<h4><i>Music Player</i></h4>
+                </div>
+                <div>
+                    <h3>Favourites</h3>
+                </div>
+             <div class="music_search">
+             		<!-- search_icon -->
+             		<i class="fas fa-search search_icon"></i>
+                    <input type="text" name="search" placeholder="search">
+                    <!-- mic_icon -->
+                    <i class="fas fa-microphone mic_icon"></i>
+             </div>
+             <div class="login">
+                 <div class="bell_icon">
+                   <i class="fas fa-bell"></i>
+                 </div>
+                 <div class="profile">
+                   <i class="fas fa-user"></i>
+                 </div>
+             </div>
+        </nav>
+	</header>
+    <aside class="aside_section_1">
+
+    		<div class="three_images">
+                <div class="three_images_1">
+                    <img src="images/english/faded.jpg">
+                </div>
+    			<div class="three_images_2">
+                    <img src="images/english/Alone.png">
+                </div>
+                <div class="three_images_3">
+                    <img src="images/english/closer.jpg">
+                </div>    	
+    	   </div>
+
+    	<div class="latest_release">
+    		<h1>Latest Release</h1>
+    		<div class="card_section">
+    			<!-- first card -->
+    			<div class="card">
+                    <div class="card_image">
+                        <img src="Images/telugu/saaho.jpg">
+                    </div>
+                    <div>
+                         <i class="fas fa-play  play_icon"></i>
+                    </div>
+    				<div class="song_description">
+    					<h3>saaho</h3>
+                        <p>aug13,2018</p>
+    				</div>
+    				<div class="options">
+    					<h4>...</h4>
+    					<p>3:27</p>
+    				</div>
+    			</div>
+
+    			<!-- second card -->
+    			<div class="card">
+    				<div class="card_image">
+    					<img src="Images/telugu/gangleader.jpg">
+    				</div>
+                     <div>
+                         <i class="fas fa-play  play_icon"></i>
+                    </div>
+    				<div class="song_description">
+    					<h3>gangleader</h3>
+    					<p>sep18,2019</p>
+    				</div>
+    				<div class="options">
+    					<h4>...</h4>
+    					<p>4:23</p>
+    				</div>
+    			</div>
+
+                <!-- third card -->
+    			<div class="card">
+    				<div class="card_image">
+    					<img src="Images/telugu/bahubali.jpg">
+    				</div>
+                     <div>
+                         <i class="fas fa-play  play_icon"></i>
+                    </div>
+    				<div class="song_description">
+    					<h3>bahubali</h3>
+    					<p>jan13,2017</p>
+    				</div>
+    				<div class="options">
+    					<h4>...</h4>
+    					<p>2:49</p>
+    				</div>
+    			</div>
+
+    			<!-- fourth card -->
+    			<div class="card">
+    				<div class="card_image">
+    					<img src="Images/hindi/chennai.jpg">
+    				</div>
+                     <div>
+                         <i class="fas fa-play  play_icon"></i>
+                    </div>
+    				<div class="song_description">
+    					<h3>chennai</h3>
+    					<p>nov2,2016</p>
+    				</div>
+    				<div class="options">
+    					<h4>...</h4>
+    					<p>5:38</p>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+
+        <!-- popular artists -->
+        	<div class="popular_artists">
+        		<h1>Popular Artists</h1>
+        		<div class="popular_artists_inner">
+        			<div class="popular_artists_img">
+        			  <img src="images/popular_artists/drake.jfif">
+        			  <p>Drake</p>
+        		    </div>
+        		    <div class="popular_artists_img">
+        			  <img src="images/popular_artists/arjit_singh.jfif">
+        			  <p>Arjit Singh</p>
+        		    </div>
+        		    <div class="popular_artists_img">
+        			  <img src="images/popular_artists/ed_sheeran.jfif">
+        			  <p>Ed Sheeran</p>
+        		    </div>
+        		    <div class="popular_artists_img">
+        			  <img src="images/popular_artists/shreya_ghoshal.jfif">
+        			  <p>Shreya Ghoshal</p>
+        		    </div>
+        		    <div class="popular_artists_img">
+        			  <img src="images/popular_artists/taylor_swift.jfif">
+        	    	  <p>Taylor Swift</p>
+        	        </div>
+                    <div class="popular_artists_img">
+                      <img src="images/popular_artists/sid-sriram.jpg">
+                      <p>Sid Sriram</p>
+                    </div>
+        		</div>
+        	</div>
+
+        	<!-- theme music -->
+        	<div class="theme_music">
+        		<div class="theme_name">
+        			<img src="images/type_music/rock.jpg">
+        			<p>Rock</p>
+        		</div>
+        		<div class="theme_name">
+        			<img src="images/type_music/road.jpg">
+        			<p>Road</p>
+        		</div>
+        		<div class="theme_name">
+        			<img src="images/type_music/pop.jpg">
+        			<p>Pop</p>
+        		</div>
+                <div class="theme_name">
+                    <img src="images/type_music/chill.jpg">
+                    <p>Chill</p>
+                </div>
+
+        	</div>
+
+            <!-- latest english -->
+        	<div class="latest_movies">
+        		<h1>Latest English</h1>
+        		<div class="latest_movies_inner">
+        			<div class="latest_movies_img">
+        			   <img src="images/english/cheap-thrills.jpg">
+        			   <p>Cheap Trills</p>
+        			   <p>aug11,2011</p>
+        		    </div>
+        		    <div class="latest_movies_img">
+        			   <img src="images/english/closer.jpg">
+        			   <p>Closer</p>
+        			   <p>sep4,2017</p>
+        		    </div>
+        		    <div class="latest_movies_img">
+        			   <img src="images/english/Alone.png">
+        			   <p>Alone</p>
+        			   <p>jan19,2016</p>
+        		    </div>
+        		    <div class="latest_movies_img">
+        			   <img src="images/english/despacito.jpg">
+        			   <p>Despacito</p>
+        		       <p>feb01,2010</p>
+        	     	</div>
+        		    <div class="latest_movies_img">
+        			   <img src="images/english/faded.jpg">
+        			   <p>Faded</p>
+        			   <p>jun28,2019</p>
+        		    </div>
+        		    <div class="latest_movies_img">
+        			   <img src="images/english/senorita.jpg">
+        			   <p>Senorita</p>
+        			   <p>nov02,2021</p>
+        		</div>
+        		</div>
+        	</div>
+
+            <div class="latest_movies">
+                <h1>Latest Hindi</h1>
+                <div class="latest_movies_inner">
+                    <div class="latest_movies_img">
+                       <img src="images/hindi/baarish.jpg">
+                       <p>Baarish</p>
+                       <p>aug11,2011</p>
+                    </div>
+                    <div class="latest_movies_img">
+                      <img src="images/hindi/chennai.jpg">
+                       <p>Chennai</p>
+                       <p>sep4,2017</p>
+                    </div>
+                    <div class="latest_movies_img">
+                       <img src="images/hindi/ik-vaari-aa.jpg">
+                       <p>Ik-vaari-aa</p>
+                       <p>jan19,2016</p>
+                    </div>
+                    <div class="latest_movies_img">
+                       <img src="images/hindi/abcd.jpg">
+                       <p>abcd</p>
+                       <p>feb01,2010</p>
+                    </div>
+                    <div class="latest_movies_img">
+                      <img src="images/hindi/sun-saathiya.jpg">
+                       <p>sun-saathiya</p>
+                       <p>jun28,2019</p>
+                    </div>
+                    <div class="latest_movies_img">
+                        <img src="images/hindi/panida.jpg">
+                       <p>panida</p>
+                       <p>nov02,2021</p>
+                   </div>
+                </div>
+            </div>
+        
+    </aside>
+    <aside class="aside_section_2">
+         <div class="queue_list">
+            <h1>My Playlist</h1>
+            <!-- <div>
+                <label class="queue_dropdown">Queue<i class="fas fa-chevron-circle-down"></i></label>
+                <div>
+                    <div class="queue_dropdown_options">
+                       <div class="drop-item">
+                         <p>PlayLists</p>
+                       </div>
+                       <hr>
+                       <div class="drop-item">
+                         <p>Favourite Songs</p>
+                       </div>
+
+                </div>
+            </div> -->
+            <div class="queue_list_section">
+                <!-- first queue -->
+                <div class="queue">
+                     <div class="queue_number">
+                        <p>01</p>
+                    </div>
+                    <div class="queue_image">
+                        <img src="images/english/alone.png">
+                    </div>
+                    <div class="queue_song_description">
+                      <h1>Alone</h1>
+                      <h3>Alan walker</h3>  
+                    </div>
+                    <div class="like">
+                        <i class="far fa-heart"></i> 
+                    </div>
+                </div>
+
+                <!-- second queue -->
+                <div class="queue">
+                    <div class="queue_number">
+                        <p>02</p>
+                    </div>
+                    <div class="queue_image">
+                         <img src="images/english/faded.jpg">
+                    </div>
+                    <div class="queue_song_description">
+                        <h1>faded</h1>
+                        <h3>Alan walker</h3>
+                    </div>
+                    <div class="like">
+                      <i class="far fa-heart"></i> 
+                    </div>
+                </div>
+
+                <!-- third queue -->
+                <div class="queue">
+                    <div class="queue_number">
+                        <p>03</p>
+                    </div>
+                    <div class="queue_image">
+                         <img src="images/english/senorita.jpg">
+                    </div>
+                    <div class="queue_song_description">
+                        <h1>senorita</h1>
+                        <h3>Shawn Mendes</h3>
+                    </div>
+                    <div class="like">
+                       <i class="far fa-heart"></i> 
+                    </div>
+                </div>
+
+                <!-- fourth queue -->
+                <div class="queue">
+                    <div class="queue_number">
+                        <p>04</p>
+                    </div>
+                    <div class="card_image">
+                         <img src="images/telugu/saaho.jpg">
+                    </div>
+                    <div class="queue_song_description">
+                         <h1>saaho</h1>
+                        <h3>Gibran</h3>
+                    </div>
+                    <div class="like">
+                       <i class="far fa-heart"></i> 
+                    </div>
+                </div>
+
+                <!-- fifth queue -->
+                <div class="queue">
+                    <div class="queue_number">
+                        <p>05</p>
+                    </div>
+                    <div class="card_image">
+                         <img src="images/telugu/buttabomma.jpg">
+                    </div>
+                    <div class="queue_song_description">
+                         <h1>Buttabomma</h1>
+                        <h3>Thaman</h3>
+                    </div>
+                    <div class="like">
+                       <i class="far fa-heart"></i> 
+                    </div>
+                </div>
+
+                <!-- sixth queue -->
+                <div class="queue">
+                    <div class="queue_number">
+                        <p>06</p>
+                    </div>
+                    <div class="card_image">
+                         <img src="images/telugu/bahubali.jpg">
+                    </div>
+                    <div class="queue_song_description">
+                         <h1>bahubali</h1>
+                        <h3>Keeravani</h3>
+                    </div>
+                    <div class="like">
+                       <i class="far fa-heart"></i> 
+                    </div>
+                </div>
+
+                <!-- seventh queue -->
+                <div class="queue">
+                    <div class="queue_number">
+                        <p>07</p>
+                    </div>
+                    <div class="card_image">
+                         <img src="images/hindi/sun-saathiya.jpg">
+                    </div>
+                    <div class="queue_song_description">
+                         <h1>Sun-Saathiya</h1>
+                        <h3>Divya Kumar</h3>
+                    </div>
+                    <div class="like">
+                       <i class="far fa-heart"></i> 
+                    </div>
+                </div>
+
+                <!-- eight queue -->
+                <div class="queue">
+                    <div class="queue_number">
+                        <p>08</p>
+                    </div>
+                    <div class="card_image">
+                         <img src="images/hindi/ik-vaari-aa.jpg">
+                    </div>
+                    <div class="queue_song_description">
+                         <h1>Ik-vaari-aa</h1>
+                        <h3>Pritam</h3>
+                    </div>
+                    <div class="like">
+                       <i class="far fa-heart"></i> 
+                    </div>
+                </div>
+
+                <!-- nineth queue -->
+                <div class="queue">
+                    <div class="queue_number">
+                        <p>09</p>
+                    </div>
+                    <div class="card_image">
+                         <img src="images/telugu/gangleader.jpg">
+                    </div>
+                    <div class="queue_song_description">
+                         <h1>Gangleader</h1>
+                        <h3>Anirudh</h3>
+                    </div>
+                    <div class="like">
+                       <i class="far fa-heart"></i> 
+                    </div>
+                </div>
+
+                <!-- tenth queue -->
+                <div class="queue">
+                    <div class="queue_number">
+                        <p>10</p>
+                    </div>
+                    <div class="card_image">
+                         <img src="images/hindi/baarish.jpg">
+                    </div>
+                    <div class="queue_song_description">
+                         <h1>Baarish</h1>
+                        <h3>Tanishk</h3>
+                    </div>
+                    <div class="like">
+                       <i class="far fa-heart"></i> 
+                    </div>
+                </div>
+
+                <!-- eleventh queue -->
+                <div class="queue">
+                    <div class="queue_number">
+                        <p>11</p>
+                    </div>
+                    <div class="card_image">
+                         <img src="images/english/cheap-thrills.jpg">
+                    </div>
+                    <div class="queue_song_description">
+                         <h1>Cheap-trills</h1>
+                        <h3>Sia</h3>
+                    </div>
+                    <div class="like">
+                       <i class="far fa-heart"></i> 
+                    </div>
+                </div>
+
+                <!-- twelveth queue -->
+                <div class="queue">
+                    <div class="queue_number">
+                        <p>12</p>
+                    </div>
+                    <div class="card_image">
+                         <img src="images/english/despacito.jpg">
+                    </div>
+                    <div class="queue_song_description">
+                         <h1>Despacito</h1>
+                        <h3>Puerto Rican</h3>
+                    </div>
+                    <div class="like">
+                       <i class="far fa-heart"></i> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+</body>
+
+</html>
